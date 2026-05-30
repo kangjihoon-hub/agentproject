@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graduation Check AI Agent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Graduation Check AI Agent</h1>
+  <p>성적증명서 기반 졸업요건 자동 판정 시스템</p>
+  <div class="card">
+    <label>학생 선택</label>
+    <select id="studentSelect"></select>
+  </div>
+  <div class="card">
+    <h2 id="result"></h2>
+  </div>
+  <div class="card">
+    <table>
+      <thead>
+        <tr><th>구분</th><th>필요</th><th>이수</th><th>부족</th><th>상태</th></tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
